@@ -10,7 +10,6 @@ let checkbox=document.getElementById('checkbox')
 button.addEventListener('click',fibonacci)
 function fibonacci(){
 if(document.getElementById('checkbox').checked){
-alert('hi')
 result.classList.add("spinner-border", "text-primary");
 if(input.value>50){
 input.classList.add("border-danger", "text-danger");
